@@ -174,11 +174,11 @@ class Game extends Component {
 
   generateIfCollideX = (left, top) => {
     // 10 correspond à la moitié de la balle, 2.5 à la moitié du espace vertical, 5 à la moitié d'un espace horizontal
-    return (this.state.pointTop + 10 > top - 2.5 && this.state.pointTop + 10 < top + 22.5 && this.state.pointLeft + 20 > left && this.state.pointLeft < left + 67)
+    return (this.state.pointTop + 10 > top - 2.5 && this.state.pointTop + 10 < top + 22.5 && this.state.pointLeft + 20 > left && this.state.pointLeft < left + 60)
   }
 
   generateIfCollideY = (left, top) => {
-    return (this.state.pointTop + 20 > top && this.state.pointTop < top + 20 && this.state.pointLeft + 10 > left - 5 && this.state.pointLeft + 10 < left + 67 + 5)
+    return (this.state.pointTop + 20 > top && this.state.pointTop < top + 20 && this.state.pointLeft + 10 > left - 5 && this.state.pointLeft + 10 < left + 60 + 5)
   }
 
   checkIfCollideX = () => {
@@ -299,7 +299,6 @@ class Game extends Component {
         brick.push({ top: i * 25, left: j * 77 })
       }
     }
-    // brick.push({ top: 0, left: 0 })
     return brick;
   };
 

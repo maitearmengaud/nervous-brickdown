@@ -6,9 +6,12 @@
 }
 
 .Game {
-    margin: 0;
+    /* margin: 0;
     width: 375px;
-    height: 613px;
+    height: 613px; */
+    display: block;
+    margin: 0 auto;
+    width: 100%;
     transition: all linear 400ms;
     background: rgb(255,255,255);
     background: -moz-linear-gradient(0deg, rgba(255,255,255,0) 26%, rgba(252,252,252,0.6881127450980392) 60%, rgba(252,252,252,0) 90%);
