@@ -366,7 +366,7 @@ class Game extends Component {
             </div>
             {this.props.counter === true && <Countdown time={this.state.time} color={this.state.color}></Countdown>}
           </div>
-          <div style={{ position: 'relative', height: '600px', width: '375', top: '35px' }}>
+          <div style={{ position: 'relative', height: '600px', width: '375', top: '20px' }}>
             <MoveBart left={bartDepart} bartGoRight={this.bartGoRight} endGame={brickWall} />
             {this.state.brickWall.map(item => {
               return (

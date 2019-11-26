@@ -1,8 +1,7 @@
 .background {
     background: url("../images/background.jpg")no-repeat;
     width: 360px;
-    height: 600px;
-    margin: 0 auto;
+    height: 567px;
     display: block;
 }
 
@@ -39,7 +38,8 @@
 
 .life:before, .noLife:before {
     content: '\2665';
-    font-size: 2em;}
+    font-size: 1.5em;
+}
 
 .life:before {
     color: red;
