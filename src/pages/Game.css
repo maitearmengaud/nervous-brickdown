@@ -1,7 +1,7 @@
 .background {
     background: url("../images/background.jpg")no-repeat;
     width: 375px;
-    height: 667px;
+    height: 600px;
     margin: 0 auto;
     display: block;
 }
@@ -9,7 +9,7 @@
 .Game {
     margin: 0;
     width: 375px;
-    height: 667px;
+    height: 613px;
     transition: all linear 400ms;
     background: rgb(255,255,255);
     background: -moz-linear-gradient(0deg, rgba(255,255,255,0) 26%, rgba(252,252,252,0.6881127450980392) 60%, rgba(252,252,252,0) 90%);
