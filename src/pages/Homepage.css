@@ -2,6 +2,10 @@
    background: url("../images/background-home.jpg") no-repeat;
    position: relative;
    height: 100vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: flex-end;
 }
 .homepage .block button {
    background: transparent;
@@ -35,11 +39,14 @@ img{
     margin-top: 130px;
  }
  .buttons_homepage{
-    position: absolute;
-    margin-top: 397px;
-    margin-left: 56px;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   justify-content: center;
+   width: 100%;
  }
- a{
+
+ a {
     color: yellow;
     text-decoration: none;
  }

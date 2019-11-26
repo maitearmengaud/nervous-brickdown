@@ -403,7 +403,6 @@ class Game extends Component {
             />
           }
           < Point left={pointLeft} top={pointTop} move={this.isBallMoving} brick={brickWall} />
-          {/* <div style={{width: `${this.padWidth}px` , zIndex:'1000', position:'absolute', top:'492px', left:`${xLeft}px`, border: '2px red solid'}}></div> */}
           <Pad left={xLeft} width={this.padWidth} />
         </div>
       </div>

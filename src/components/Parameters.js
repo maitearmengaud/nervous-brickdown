@@ -2,9 +2,7 @@ import React from 'react';
 import './Parameters.css';
 import ReactModal from 'react-modal';
 import { IoMdClose,
-         IoMdCog,
-         IoMdHelp,
-         IoIosVolumeHigh } from 'react-icons/io';
+         IoMdHelp } from 'react-icons/io';
 import { TiArrowLeftThick, TiArrowRightThick } from "react-icons/ti";
 import totoUrl from '../musique/toto.mp3'
 import Duff from '../images/Duff.png'
@@ -60,8 +58,6 @@ class Parameters extends React.Component {
     return (
       <div className="block">
         <button onClick={this.handleOpenModal}><IoMdHelp/></button>
-        <button onClick={this.handleOpenModal2}><IoMdCog/></button>
-        
         <ReactModal 
            style={{content: { background: "linear-gradient(180deg, rgba(3,141,247,1) 0%, rgba(120,194,251,1) 50%, rgba(251,251,251,1) 100%)", width:'70%'}}}
            isOpen={this.state.showModal}
@@ -78,17 +74,6 @@ class Parameters extends React.Component {
             <p className="alignItems"><img src={heart} alt='heart' className="heartlife"/> = life</p>
           </div>
          </ReactModal>
-
-        <ReactModal 
-           style={{content: { background: "linear-gradient(180deg, rgba(3,141,247,1) 0%, rgba(120,194,251,1) 50%, rgba(251,251,251,1) 100%)", width:'70%'}}}
-           isOpen={this.state.showModal2}
-           onRequestClose={this.handleCloseModal2}
-        >
-          <button onClick={this.handleCloseModal2} style={{ float: "right"}}><IoMdClose /></button>
-          <h1 class="title">Parameters</h1>
-          <p class="x"><button onClick={this.manageAudio}><IoIosVolumeHigh className="iconSong"/></button>Music on/off</p>
-        </ReactModal>
-
       </div>
     );
   }
