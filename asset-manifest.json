@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/nervous-brickdown/static/css/main.dd080e43.chunk.css",
-    "main.js": "/nervous-brickdown/static/js/main.2b26e49e.chunk.js",
-    "main.js.map": "/nervous-brickdown/static/js/main.2b26e49e.chunk.js.map",
+    "main.css": "/nervous-brickdown/static/css/main.0c5a7f8f.chunk.css",
+    "main.js": "/nervous-brickdown/static/js/main.864c8203.chunk.js",
+    "main.js.map": "/nervous-brickdown/static/js/main.864c8203.chunk.js.map",
     "runtime-main.js": "/nervous-brickdown/static/js/runtime-main.7e4e11a0.js",
     "runtime-main.js.map": "/nervous-brickdown/static/js/runtime-main.7e4e11a0.js.map",
     "static/js/2.46e6fd84.chunk.js": "/nervous-brickdown/static/js/2.46e6fd84.chunk.js",
     "static/js/2.46e6fd84.chunk.js.map": "/nervous-brickdown/static/js/2.46e6fd84.chunk.js.map",
     "index.html": "/nervous-brickdown/index.html",
-    "precache-manifest.f5bd6141f0a35d81b8d22f2c9d1448b6.js": "/nervous-brickdown/precache-manifest.f5bd6141f0a35d81b8d22f2c9d1448b6.js",
+    "precache-manifest.f0f486063f0b0b2eda33e5a853bf1db6.js": "/nervous-brickdown/precache-manifest.f0f486063f0b0b2eda33e5a853bf1db6.js",
     "service-worker.js": "/nervous-brickdown/service-worker.js",
-    "static/css/main.dd080e43.chunk.css.map": "/nervous-brickdown/static/css/main.dd080e43.chunk.css.map",
+    "static/css/main.0c5a7f8f.chunk.css.map": "/nervous-brickdown/static/css/main.0c5a7f8f.chunk.css.map",
     "static/media/Donuts.png": "/nervous-brickdown/static/media/Donuts.700a23c4.png",
     "static/media/Duff.png": "/nervous-brickdown/static/media/Duff.9265bcc2.png",
     "static/media/Popupwin.css": "/nervous-brickdown/static/media/Simpsonfont.514b4b36.ttf",
@@ -32,7 +32,7 @@
   "entrypoints": [
     "static/js/runtime-main.7e4e11a0.js",
     "static/js/2.46e6fd84.chunk.js",
-    "static/css/main.dd080e43.chunk.css",
-    "static/js/main.2b26e49e.chunk.js"
+    "static/css/main.0c5a7f8f.chunk.css",
+    "static/js/main.864c8203.chunk.js"
   ]
 }
